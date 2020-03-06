@@ -1,0 +1,91 @@
+.user-profile > img.avatar {
+    padding: .7em;
+    margin-left: .3em;
+    margin-top: .3em;
+    height: 6.23em;
+    width: 6.23em;
+    border-radius: 18em;
+}
+.card{
+    /* margin: auto; */
+    width: 25em;
+    height: auto;
+    background: #fff;
+    border-radius: .3em;
+    box-shadow: 0 7px 15px rgba(0, 9, 128, 0.05), 0 12px 28px rgba(0, 9, 128, 0.075);
+}
+.card-deck, .card{
+    margin-top:5px;
+    margin-bottom: 5px;
+    width: auto;
+}
+.btn_1{
+    border:none;
+    color:#ffffff;
+    background:#434bdf;
+    outline:none;
+    cursor:pointer;
+    display:inline-block;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: 600PX;
+    text-align: center;
+    line-height: 1;
+    margin-left:50%;
+    margin-right:50%;
+}
+
+a.btn_1.rounded, .btn_1.rounded {
+    border-radius: 25px !important;
+}
+.btn_2{
+    border:none;
+    color:#ffffff;
+    background:#434bdf;
+    outline:none;
+    cursor:pointer;
+    display:inline-block;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: 600PX;
+    text-align: center;
+    line-height: 1;
+}
+a.btn_2.rounded, .btn_2.rounded {
+    border-radius: 25px !important;
+}
+.form-inline{
+    height: 100px;
+}
+.username {
+    margin: auto;
+    margin-top: -5.40em;
+    margin-left: 6.20em;
+    color: #658585;
+    font-size: 1.10em;
+    font-family: "Coda", sans-serif;
+    font-weight: bold;
+}
+.descript{
+    display: none;
+    margin: auto;
+    margin-top: -0.10em;
+    margin-left: 7.00em;
+}
+.CRM{
+    color:#434bdf;
+    margin: auto;
+    margin-top: -0.10em;
+    margin-left: 8.0em;
+    margin-bottom: 1.00em;
+}
+
+.user-profile > .description {
+    margin: auto;
+    margin-top: 1.35em;
+    margin-right: 4.43em;
+    width: 14em;
+    color: #c0c5c5;
+    font-size: .87em;
+    font-family: "varela round", sans-serif;
+}

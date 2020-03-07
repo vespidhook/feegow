@@ -19,16 +19,6 @@
 
 <img align="center" src="./img/site.png"></img>
 
-Crie um banco de dados<strong> MySql</strong> e adicione suas configurações no arquivo <strong>.env <br/>
-
-#### No Arquivo .env use as configuraçoes abaixo
-DB_CONNECTION=mysql<br/>
-DB_HOST=192.99.13.191<br/>
-DB_PORT=3306<br/>
-DB_DATABASE=sibbonsu_feegow<br/>
-DB_USERNAME=sibbonsu_feegow<br/>
-DB_PASSWORD=TesteFeegow<br/>
-
 ## :round_pushpin: Instalando o projeto
 
 1 - <strong>git clone https://github.com/vespidhook/api-reactjs.git</strong> | para baixar o repositório <br/>

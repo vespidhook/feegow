@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feegow_Challenge</title>
+    <title>Feegow</title>
     <link rel="stylesheet" href="{{asset('css/style.css')}}" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:500i|Roboto:300,400,700|Roboto+Mono" rel="stylesheet">
 </head>
 
@@ -22,8 +22,8 @@
             </div>
         @endif
         <div class="row">
-            <div class="col-2"></div>
-            <nav class="navbar navbar-expand-lg navbar-info bg-info col-8">
+            <div class="col-12"></div>
+            <nav class=" navbar-expand-lg bg-info col-12">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
@@ -35,7 +35,7 @@
                                     <option value="{{$specialitie->especialidade_id}}">{{$specialitie->nome}}</option>
                                 @endforeach
                             </select>
-                            <button class="btn btn-success my-2 my-sm-0 btn_2 rounded" type="button" id="btnAgendar">BUSCAR</button>
+                            <button class="btn btn-success my-2 my-sm-0 btn_2 rounded" type="button" id="btnAgendar">Buscar</button>
                         </form>
                         <li>
                     </ul>
@@ -51,10 +51,10 @@
         <div class="model" style="display:none">
             <div class="card col-4 dr">
                 <div class="card-body">
-                <img class="avatar" src="https://image.flaticon.com/icons/svg/387/387561.svg" width="100" height="100"
-                    alt="Doctor free icon" title="Doctor free icon">
-                <div class="username"><span>José José Jose José de José</span></div>
-                <P class="CRM"><span>CRM:1245635241-5</span></P>
+                <img class="avatar" src="https://api.adorable.io/avatars/100/abott@adorable" border-radius="50" width="100" height="100"
+                    alt="">
+                <div class="username"><span>DOCTOR_NAME</span></div>
+                <P class="CRM"><span>CRM_NUMBER</span></P>
                 <button class="btn btn-success my-2 my-sm-0 btn_1 rounded btnAgendar" onclick="mostrarForm(this)">Agendar</button>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                                 <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                                     <div class="form-group">
                                         <label for="nomeField">Nome completo:</label>
-                                        <input type="text" class="form-control" name="name" placeholder="Ex: José Silva" required>
+                                        <input type="text" class="form-control" name="name" placeholder="Nome Completo" required>
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
@@ -99,11 +99,11 @@
                                 <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                                     <div class="form-group">
                                         <label for="nomeField">CPF:</label>
-                                        <input type="text" class="form-control" name="cpf" placeholder="Ex: 123.456.789-22" required>
+                                        <input type="text" class="form-control" maxlength="11" name="cpf" placeholder="Ex: 123.456.789-22" required>
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-success my-2 my-sm-0 btn_2 rounded" id="solicitarHorario">Solicitar horários</button>
+                            <button type="submit" class="btn btn-success my-2 my-sm-0 btn_2 rounded" id="solicitarHorario">Agendar</button>
                         </form>
                     </div>
                 </div>

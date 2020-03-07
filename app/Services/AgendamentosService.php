@@ -20,7 +20,7 @@ class AgendamentosService{
 
             return [
                 'success'   => true,
-                'messages'  => "Agendamento Solicitado",
+                'messages'  => "Consulta Agendada!",
                 'data'      => $agendamento
             ];
         }

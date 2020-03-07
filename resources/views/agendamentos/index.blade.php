@@ -51,7 +51,7 @@
         <div class="model" style="display:none">
             <div class="card col-4 dr">
                 <div class="card-body">
-                <img class="avatar" src="https://api.adorable.io/avatars/100/abott@adorable" border-radius="50" width="100" height="100"
+                <img class="avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqhNDrB9izIZt15J7sh6xq6b0KbD5tipfbrEoHzdqeiK6MlHIR" border-radius="50" width="100" height="100"
                     alt="">
                 <div class="username"><span>DOCTOR_NAME</span></div>
                 <P class="CRM"><span>CRM_NUMBER</span></P>

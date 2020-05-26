@@ -27,14 +27,6 @@
 4 - <strong>php artisan migrate</strong> | para rodar as migrations***<br/>
 5 - <strong>php artisan serve</strong> | para iniciar o projeto na porta 8000<br/>
   
-### banco de dados para teste***
-DB_CONNECTION=mysql<br/>
-DB_HOST=192.99.13.191<br/>
-DB_PORT=3306<br/>
-DB_DATABASE=sibbonsu_feegow<br/>
-DB_USERNAME=sibbonsu_feegow<br/>
-DB_PASSWORD=TesteFeegow<br/>
-
 ## :memo: License
 
 #### Este projeto está sob licença [MIT](./LICENSE) &copy; [Fegoow](https://feegowclinic.com.br/)
